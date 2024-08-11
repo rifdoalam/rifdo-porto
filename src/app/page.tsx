@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <section className="relative flex  w-screen h-screen flex-col items-center justify-center overflow-hidden bg-background ">
-        <span className="mb-3">Portofolio&apos;s</span>
+        <span className="mb-3">Portofolios</span>
         <h1 className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-[78px] font-bold leading-none tracking-tighter text-transparent">
           Rifdo Shah Alam
         </h1>
@@ -21,7 +21,7 @@ export default function Home() {
       </div>
       <footer className="w-screen container mx-auto">
         <hr />
-        <p className="text-center my-3">&copy;Rifdo portofolio's - 2024</p>
+        <p className="text-center my-3">&copy;Rifdo portofolios - 2024</p>
       </footer>
     </>
   );
