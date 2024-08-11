@@ -1,8 +1,4 @@
 import { DockDemo } from "@/components/Elements/dock";
-import Experience from "@/components/Fragment/experience";
-import Projects from "@/components/Fragment/project";
-import Globe from "@/components/magicui/globe";
-import Meteors from "@/components/magicui/meteors";
 import RetroGrid from "@/components/magicui/retro-grid";
 import TextRevealByWord from "@/components/magicui/text-reveal";
 export default function Home() {
@@ -16,8 +12,8 @@ export default function Home() {
         <DockDemo />
         <RetroGrid />
       </section>
-      <Experience />
-      <Projects />
+      {/* <Experience />
+      <Projects /> */}
       <div className="z-10 flex min-h-[16rem] items-center justify-center rounded-lg bg-white">
         <TextRevealByWord text="Let's collaborate and innovate together to create extraordinary works." />
       </div>
