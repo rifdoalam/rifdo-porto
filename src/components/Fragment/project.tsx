@@ -6,7 +6,7 @@ const Projects = () => {
     <>
       <section className="w-screen container mx-auto py-24">
         <h1 className="mb-14 text-center pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-[58px] font-bold leading-none tracking-tighter text-transparent">
-          Project's
+          Project&apos;s
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-4 mb-14">
           <button className="bg-gradient px-4 text-white rounded">All</button>

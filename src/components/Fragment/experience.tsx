@@ -5,7 +5,7 @@ const Experience = () => {
     <>
       <section className="w-screen container mx-auto py-24">
         <h1 className="mb-14 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-[58px] font-bold leading-none tracking-tighter text-transparent">
-          Experience's
+          Experience&apos;'s
         </h1>
         <div className="w-full flex flex-col md:flex-row  gap-7">
           <div className="w-full md:w-5/12 p-4">
