@@ -1,5 +1,15 @@
+import { type } from "os";
 import ListCard from "../Elements/list-card";
+import { experience } from "@/utils/data";
+import { List } from "lucide-react";
 
+interface ExperienceProps {
+  id: number;
+  company: string;
+  position: string;
+  type: string;
+  duration: number;
+}
 const Experience = () => {
   return (
     <>
@@ -15,8 +25,10 @@ const Experience = () => {
               innovative applications and systems. I am excited to continue learning and taking on new challenges in the technology industry.
             </p>
           </div>
-          <div className="w-full md:w-7/12">
-            <ListCard />
+          <div className="w-full md:w-7/12 flex flex-col gap-3">
+            {experience.map((ex) => (
+              <ListCard data={ex} key={ex?.id} />
+            ))}
           </div>
         </div>
       </section>
