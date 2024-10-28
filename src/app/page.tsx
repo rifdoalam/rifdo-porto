@@ -13,6 +13,9 @@ export default function Home() {
         </h1>
         <DockDemo />
         <RetroGrid />
+        <div className="absolute bottom-4">
+          <span className="font-bold">Scroll down</span>
+        </div>
       </section>
       <Experience />
       <Projects />

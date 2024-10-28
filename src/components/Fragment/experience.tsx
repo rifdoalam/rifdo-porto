@@ -3,13 +3,6 @@ import ListCard from "../Elements/list-card";
 import { experience } from "@/utils/data";
 import { List } from "lucide-react";
 
-interface ExperienceProps {
-  id: number;
-  company: string;
-  position: string;
-  type: string;
-  duration: number;
-}
 const Experience = () => {
   return (
     <>

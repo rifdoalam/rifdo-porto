@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, type AnimationProps } from "framer-motion";
-
+import { MouseEventHandler } from "react";
 import { cn } from "@/lib/utils";
 import GithubIcon from "../Icons/github";
 import WebIcon from "../Icons/web";
@@ -30,10 +30,12 @@ interface ShinyButtonProps {
   text: string;
   icon: string;
   className?: string;
+  onClick: MouseEventHandler<HTMLButtonElement>;
 }
-const ShinyButton = ({ text = "shiny-button", icon, className }: ShinyButtonProps) => {
+const ShinyButton = ({ text = "shiny-button", icon, className, onClick }: ShinyButtonProps) => {
   return (
     <motion.button
+      onClick={onClick}
       {...animationProps}
       className={cn(
         "relative rounded-lg px-6 py-2 font-medium backdrop-blur-xl transition-[box-shadow] duration-300 ease-in-out hover:shadow dark:bg-[radial-gradient(circle_at_50%_0%,hsl(var(--primary)/10%)_0%,transparent_60%)] dark:hover:shadow-[0_0_20px_hsl(var(--primary)/10%)]",
