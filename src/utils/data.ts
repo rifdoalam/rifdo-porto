@@ -164,4 +164,24 @@ export const projects = [
     url: "https://admin.apkita.id/",
     git: "",
   },
+  {
+    id: 11,
+    name: "BPR Purwakarta Website",
+    technologies: ["Laravel", "React JS", "MySQL"],
+    description:
+      "The BPR Purwakarta company profile website development project aims to introduce the vision, mission, and services offered by the financial institution to the wider community, while providing transparent and accessible information about banking products, including deposits, loans, and other financial programs. With an attractive design and user-friendly navigation, this website is expected to increase brand awareness and make it easier for customers and prospective customers to find the information they need, so that BPR Purwakarta can continue to grow and make a positive contribution to the local economy.",
+    image: "https://github.com/its-rajesh/Retro-Grid/blob/main/retro-grid.png?raw=true",
+    url: "http://www.bprpurwakarta.co.id/",
+    git: "",
+  },
+  {
+    id: 11,
+    name: "Multipliar Website",
+    technologies: ["Laravel", "MySQL"],
+    description:
+      "The profile website project for Multipilar Teknologi aims to showcase the innovations and technology solutions offered by the company, as well as provide a clear overview of its services, flagship projects, and the expertise of the professional team that supports them. With a modern and responsive design, the website is expected to attract the attention of potential clients and business partners, while providing comprehensive information about the company's vision and mission in delivering technology that supports digital transformation. Through this platform, Multipilar Teknologi aims to strengthen its position as a leader in the technology industry, as well as build trust and closer relationships with customers.",
+    image: "https://github.com/its-rajesh/Retro-Grid/blob/main/retro-grid.png?raw=true",
+    url: "https://www.multipilarbalantika.co.id/",
+    git: "",
+  },
 ];
