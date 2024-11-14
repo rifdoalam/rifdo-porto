@@ -29,7 +29,7 @@ const Card = (props: ListCardProps) => {
         <div className="grid grid-cols-4 gap-2 mb-3">
           {data.technologies.map((technology, index) =>
             index <= 2 ? (
-              <div className="px-3 bg-[#F5F7F8] text-[12px] font-bold rounded text-center line-clamp-1">
+              <div key={index} className="px-3 bg-[#F5F7F8] text-[12px] font-bold rounded text-center line-clamp-1">
                 <span>{technology}</span>
               </div>
             ) : null
@@ -42,7 +42,7 @@ const Card = (props: ListCardProps) => {
               <PopoverContent>
                 <div className="grid grid-cols-3 gap-2 mb-3">
                   {data.technologies.map((technology, index) => (
-                    <div className="px-3 py-2 bg-[#F5F7F8] text-[10px] text-center font-bold rounded">
+                    <div key={index} className="px-3 py-2 bg-[#F5F7F8] text-[10px] text-center font-bold rounded">
                       <span>{technology}</span>
                     </div>
                   ))}
