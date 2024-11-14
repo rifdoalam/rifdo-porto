@@ -59,7 +59,7 @@ const Card = (props: ListCardProps) => {
           )}
           {data?.github && <ShinyButton onClick={() => {}} text="" icon="github" />}
         </div>
-        <div className="w-full h-[20vh] bg-slate-400 mb-3 rounded"></div>
+        {/* <div className="w-full h-[20vh] bg-slate-400 mb-3 rounded"></div> */}
       </div>
     </>
   );

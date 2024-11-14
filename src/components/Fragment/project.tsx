@@ -6,15 +6,6 @@ import ShinyButton from "../magicui/shiny-button";
 import { projects } from "@/utils/data";
 const Projects = () => {
   const [paginate, setPaginate] = useState(8);
-  /*************  ✨ Codeium Command ⭐  *************/
-  /**
-   * A function that is called when the "Load More" button is clicked.
-   * The purpose of this function is to load more projects when the button is clicked.
-   * The function currently only logs a message to the console, but in the future
-   * it should be updated to make an API request to load more data.
-   */
-  /******  1750ce49-eefd-4b60-9fae-54c973396968  *******/
-
   return (
     <>
       <section className="w-screen container mx-auto py-24">
