@@ -25,19 +25,19 @@ export const experience = [
   },
   {
     id: 4,
-    company: "Solve On Technology  ",
-    image: "adinusa_teknologi_logo.jpeg",
-    position: "Fullstack Engineer",
-    type: "Contract",
-    duration: "Jun 2022 - Sep 2022",
-  },
-  {
-    id: 5,
     company: "Indi Technology  ",
     image: "inditechno_logo.jpeg",
     position: "Product Development",
     type: "Internship",
     duration: "Sep 2022 - Dec 2023",
+  },
+  {
+    id: 5,
+    company: "Solve On Technology  ",
+    image: "adinusa_teknologi_logo.jpeg",
+    position: "Backend Engineer",
+    type: "Contract",
+    duration: "Jan 2022 - Feb 2023",
   },
 ];
 export const projects = [
